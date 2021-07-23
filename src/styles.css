@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #9b9e9e;
+  background-image: url("https://www.transparenttextures.com/patterns/gravel.png");
+}
+#menu {
+  position: fixed;
+  background-color: #000c17;
+  background-image: url("https://www.transparenttextures.com/patterns/climpek.png");
+  right: 0;
+  top: 0;
+  width: 100%;
+}
+.top-button {
+  position: relative;
+  margin: 10px;
+}
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.imageStyle {
+  position: absolute;
+  z-index: 10;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+}
+.header {
+  position: relative;
+  background-image: url("https://i.picsum.photos/id/0/5616/3744.jpg?hmac=3GAAioiQziMGEtLbfrdbcoenXoWAW-zlyEAMkfEdBzQ");
+  background-size: 100vw 50vw;
+  width: 100%;
+  height: 50vw;
+}
+.photo {
+  position: absolute;
+  transform: rotate(-90deg);
+  width: 30%;
+  bottom: 180px;
+  border-radius: 50%;
+  left: 10px;
+  height: 25vw;
+}
+.headText {
+  text-align: right;
+  font-size: 70px;
+  padding: 70px 20px 0 0;
+  color: white;
+}
+.role {
+  text-align: right;
+  font-size: 40px;
+  padding: 40px 20px 0 0;
+  color: white;
+}
+.profile-photo {
+  position: absolute;
+  top: -2000em;
+  width: 40%;
+  height: 30vw;
+}
+.footer {
+  background-color: #9b9e9e;
+  background-image: url("https://www.transparenttextures.com/patterns/pyramid.png");
+  text-align: right;
+  padding: 20px;
+}
+.columnContent {
+  float: left;
+  background-image: url("https://www.transparenttextures.com/patterns/brushed-alum-dark.png");
+  width: 65%;
+  height: 300px;
+  text-align: left;
+  padding: 30px 0px 0px 100px;
+  border-radius: 20px;
+}
+.column {
+  float: left;
+  background-image: url("https://www.transparenttextures.com/patterns/clean-gray-paper.png");
+  width: 35%;
+  padding: 10px;
+  height: 300px;
+  text-align: left;
+  padding: 50px 0px 0px 100px;
+  border-radius: 20px;
+}
+.columnSkill {
+  float: left;
+  width: 35%;
+  height: 300px;
+  text-align: left;
+  padding: 50px 0px 0px 100px;
+  border-radius: 20px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+  margin-bottom: 4%;
+}
